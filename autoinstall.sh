@@ -19,7 +19,7 @@ fi
 echo "Auto install start ..."
 opkg update
 opkg install curl
-wget --no-check-certificate https://raw.githubusercontent.com/utopeadia/UPCNet/bash/UPCNet.sh && chmod +x UPCNet.sh
+wget --no-check-certificate https://raw.githubusercontent.com/somnifex/UPCNet/bash/UPCNet.sh && chmod +x UPCNet.sh
 echo -n "If you have openclash? (1 for no, 2 for yes, default:1) -> "
 read cat
 cat=${cat:-1}
