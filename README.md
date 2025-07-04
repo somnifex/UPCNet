@@ -6,11 +6,11 @@
 在命令行中使用root权限运行以下代码即可
 不自动安装curl
 ````shell
-wget --no-check-certificate https://raw.githubusercontent.com/utopeadia/UPCNet/bash/autoinstallNoUpdate.sh && chmod +x autoinstallNoUpdate.sh && sh autoinstallNoUpdate.sh
+wget --no-check-certificate https://raw.githubusercontent.com/somnifex/UPCNet/bash/autoinstallNoUpdate.sh && chmod +x autoinstallNoUpdate.sh && sh autoinstallNoUpdate.sh
 ````
 自动安装curl
 ````shell
-wget --no-check-certificate https://raw.githubusercontent.com/utopeadia/UPCNet/bash/autoinstall.sh && chmod +x autoinstall.sh && sh autoinstall.sh
+wget --no-check-certificate https://raw.githubusercontent.com/somnifex/UPCNet/bash/autoinstall.sh && chmod +x autoinstall.sh && sh autoinstall.sh
 ````
 ### Openwrt路由器配置IPV6中继Relay
 > 引用自[Yumao's Blog](https://www.yumao.name/read/openwrt-ipv6-bridge-or-nat6/)
